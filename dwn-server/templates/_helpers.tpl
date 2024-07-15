@@ -38,7 +38,7 @@ helm.sh/chart: {{ .Chart.Name }}-{{ .Chart.Version }}
 app.kubernetes.io/name: {{ include "dwn-server.fullname" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 app: {{ template "dwn-server.name" . }}
-chart: {{ dwn-server.chart }}
+chart: {{ "dwn-server.chart" }}
 release: {{ .Release.Name }}
 heritage: {{ .Release.Service }}
 {{- if .Values.customLabels -}}
