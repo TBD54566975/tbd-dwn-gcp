@@ -10,7 +10,7 @@ properties:
       type: NAMESPACE
   image:
     type: string
-    default: $REGISTRY/example/nginx:$TAG
+    default: gcr.io/block-inc-tbd-public/dwn-server:0.0.1
     x-google-marketplace:
       type: IMAGE
       image:
