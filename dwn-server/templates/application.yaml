@@ -7,7 +7,7 @@ metadata:
   annotations:
     kubernetes-engine.cloud.google.com/icon: >-
       data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAC0UlEQVR4nOyYT0hUXxTHz3lvHP/81J9p4zTi0iKiInHhUsgWKZFCY6m1cXAsycYWYZqQSJP/FjFiKRjoJjWkFlLUSioyqECMihbRNqY3M5g4o6G8+24c36gzA3LBIl3cDyhyvef7PudwUN5YuFYAuwllpwUSkUIipJAIKSRCComQQiKkkAgpJEIKidjFQoEgd7r0jl72Lx9/s5c5XXogyBOF/BpvbGE+r9pUHzezySljdMLYKu6cW/drHDiUVOjbE7pSr/i8amMLo5xYIcYgNA/5eWjLwblPfGNOkSUIR7aM+xGgQgD47t+eD9hyMD8PQ/PRHACw0DdqMsrcR37xGlv+BdOv9bJSdNhxZNyYnKIh3biqlJdSA01t7MNnqgiG4uM5TbqqnrILD+NAtwoAz6aNLh+Vu2oVVw2V3/ax59NUPtClFh5BQLN07QsBuVbg13h1A3s1ZTFj383yB48MM25k3IgsgcdNQS2drLgIX77hF5xKcRHFlFToY0NqvgMLivVv7y2xOW9n+cB947yT7vd1UFT/sIEI4Qg/uB/PnKLA2kus2b0Z9XBYddhRie1vx4h5NHXjsOPYkFpSqZvNWZMgJZmGn5oCaWm0RubGWZMgNQWy/qcu/RoVZ2eBSs3Dvly6oyh0Yl4OR3j2HsqxJm2eZGZgRjqsrHLzJP0/+i2Np5Im7bDj+g7FU3gUFxaxuoGdPI5tzerohFHdQGvR6lHKSpXyE+BpZ7fu0FqYQwaAmScWs5/BPtW8fGx9h1ZWo+WLYairQY9b7e5n5onPu7ZD8aD5Ku3XeFMb6/eqyVaw7U289CcsLfOfC/TD46c8MwPqauL+rARDfGUVmtvZ3Z5ob7jxbh8I8sut7NAB7Lyu/kWhFzPG4CiNs+q0crYi8R9DRy/78pXf61FzbdEpoPywQYAUEiGFREghEVJIhBQSIYVESCERUkjErhP6HQAA///GHyZoho/8fAAAAABJRU5ErkJggg==
-    marketplace.cloud.google.com/deploy-info: '{"partner_id": "36287467-Partner", "product_id": "dwn-server", "partner_name": "Square, Inc"}'
+    marketplace.cloud.google.com/deploy-info: '{"partner_id": "36287467-Partner", "product_id": "dwn-server", "partner_name": "Block Inc. - TBD"}'
   labels:
     app.kubernetes.io/name: "{{ include "dwn-server.fullname" . }}"
 spec:

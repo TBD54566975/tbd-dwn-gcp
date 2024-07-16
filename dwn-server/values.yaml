@@ -3,7 +3,7 @@ nameOverride: ''
 fullnameOverride: ''
 
 image:
-  repository: ghcr.io/tbd54566975/dwn-server
+  repository: gcr.io/block-inc-tbd-public/dwn-server:1.0.0
   tag: main
   pullPolicy: IfNotPresent
 

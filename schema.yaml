@@ -10,7 +10,7 @@ properties:
       type: NAMESPACE
   image:
     type: string
-    default: gcr.io/block-inc-tbd-public/dwn-server:0.0.1
+    default: gcr.io/block-inc-tbd-public/dwn-server:1.0.0
     x-google-marketplace:
       type: IMAGE
       image:
