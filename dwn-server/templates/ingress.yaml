@@ -4,6 +4,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: {{ include "dwn-server.fullname" . }}
+  labels: {{ include "dwn-server.labels" . | nindent 4 }}
   annotations:
     {{- toYaml .Values.ingress.annotations | nindent 4 }}
 spec:

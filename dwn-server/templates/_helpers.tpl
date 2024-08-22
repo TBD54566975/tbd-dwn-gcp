@@ -35,7 +35,7 @@ Common labels
 */}}
 {{- define "dwn-server.labels" -}}
 helm.sh/chart: {{ .Chart.Name }}-{{ .Chart.Version }}
-app.kubernetes.io/name: {{ include "dwn-server.fullname" . }}
+app.kubernetes.io/name: {{ .Release.Name }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 app: {{ template "dwn-server.name" . }}
 chart: {{ "dwn-server.chart" }}
@@ -50,6 +50,6 @@ heritage: {{ .Release.Service }}
 Selector labels
 */}}
 {{- define "dwn-server.selectorLabels" -}}
-app.kubernetes.io/name: {{ include "dwn-server.fullname" . }}
+app.kubernetes.io/name: {{ .Release.Name }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end -}}
